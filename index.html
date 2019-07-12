@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Nouveta | Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <img src="images/logo.png" alt="Nouveta Tech">
+            <ul class="nav-links">
+                <li><a href="#architecture">Our Architecture</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#value-preposition">Our Value Preposition</a></li>
+                <li><a href="#products">Our Products</a></li>
+            </ul>
+            <!-- <a href="#">Link</a>
+            <a href="#">Link</a> -->
+        </nav>
+        <div id="landing">
+            <div class="star-background">
+                <img src="images/stars.svg" alt="">
+            </div>
+            <div id="scene">
+                <img src="images/yellow-planet.png" data-depth="0.7" class="yellow-planet">
+                <img src="images/planet-a.png" data-depth="0.1" class="planet-a">
+                <img src="images/blue-planet.png" data-depth="0.4" class="blue-planet">
+                <img src="images/space-ship.png" class="space-ship">
+            </div>
+            <div class="star-container">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+            <div class="rotating-text">
+                <span class="bold">Nouveta LTD</span><span> | </span>
+                <div class="rotating-words"> <span>Innovate</span><span>Invent</span><span>Mobile</span></div>
+            </div>
+            <div id="about-small">
+                <p>We are a customer engagement and experience business, developing channels that businesses use to engage their customers and enabling payments across all these channels. Channels include SMS, USSD, app, web and social media.</p>
+                <button type="button" name="button" class="btn btn-solid">Request for Demo</button>
+            </div>
+            <div class="landing-footer">
+                <img src="images/moon-surfacemain.png" alt="" data-depth="0.6">
+            </div>
+        </div>
+        <div id="about-us">
+            <div class="content">
+                <h1>Companies That Trust Us</h1>
+                <hr>
+            </div>
+        </div>
+        <div id="architecture">
+            <div class="content">
+                <div class="arch-img">
+
+                </div>
+                <div class="arch-text">
+                    <h1><span>Our</span><br>Architecture</h1>
+                    <hr class="left">
+                    <p>Our platform allows integrations to various businesses (merchants), stores of value (mobile and bank wallets) and third party applications to provide an ecosystem of customer engagement solutions with payments capabilities. </p>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="content">
+                <div class="service-navigation">
+                    <h1><span>Our</span><br>Services</h1>
+                    <hr class="left">
+                    <ul>
+                        <li><a href="javascript:void(0)">Payments</a></li>
+                        <li><a href="javascript:void(0)" class="active">Payments Channels</a></li>
+                        <li><a href="javascript:void(0)">Conversation and discovery</a></li>
+                        <li><a href="javascript:void(0)">Integration, dashboards and reconciliation</a></li>
+                    </ul>
+                </div>
+                <div class="service"></div>
+            </div>
+        </div>
+        <div id="value-preposition">
+            <div class="content">
+                <div class="heading">
+                    <h1><span>Our</span><br>Value Preposition</h1>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Simple, agile solutions</h3>
+                        <p>Short, sweet, painless, customer-centric solutions built to ensure minimum “remembering’ of details needed to make payments</p>
+                        <hr class="orange">
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Cognitive and intuitive solutions</h3>
+                        <p>Intelligent insights from structured and unstructured data. Detailed reporting and customized dashboards to suit your needs</p>
+                        <hr class="orange">
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Scalability</h3>
+                        <p>No infrastructure investment. Short delivery timelines. Deployment can be both local and cloud-based</p>
+                        <hr class="orange">
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Omni-channel solutions</h3>
+                        <p>Agnostic to customer touch points, can be deployed on SMS, USSD, app, web and social media.</p>
+                        <hr class="orange">
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Easy integrations</h3>
+                        <p>One integration exposes our clients and their customers to all payments methods. Integrations through APIs</p>
+                        <hr class="orange">
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3>Automated reconciliation</h3>
+                        <p>Integration to our clients’ systems allow us to reconcile all payments and customer engagement interactions</p>
+                        <hr class="orange">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="products">
+            <div class="content">
+                <h1><span>Our</span><br>Products</h1>
+                <hr>
+            </div>
+        </div>
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script type="text/javascript">
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+        </script>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+
+</html>

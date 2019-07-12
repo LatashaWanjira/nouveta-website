@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:url(#SVGID_1_);}
+	.st2{display:inline;}
+	.st3{display:inline;fill:#542A5C;}
+	.st4{display:inline;fill:#633168;}
+	.st5{display:inline;fill:#713874;}
+	.st6{display:inline;fill:#803F80;}
+	.st7{opacity:0.4;}
+	.st8{opacity:0.722;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0.66;enable-background:new    ;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0.66;}
+	.st10{opacity:0.722;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0.56;enable-background:new    ;}
+	.st11{opacity:0.584;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0.66;enable-background:new    ;}
+</style>
+<g class="st0">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="470.8723" y1="-310.7299" x2="1445.1277" y2="1376.7299" gradientTransform="matrix(1 0 0 -1 0 1080)">
+		<stop  offset="0" style="stop-color:#000000"/>
+		<stop  offset="1" style="stop-color:#434343"/>
+	</linearGradient>
+	<rect x="-14.5" y="-16.5" class="st1" width="1945" height="1127"/>
+	<path class="st2" d="M1930-16v1126H-14V-16H1930 M1931-17H-15v1128h1946V-17L1931-17z"/>
+</g>
+<g class="st0">
+	<rect x="-113" y="-93.1" class="st3" width="2106" height="1316.3"/>
+	<polygon class="st4" points="145,100.1 1111.1,64.3 1735.2,82.9 1769.4,609.6 1713.1,1080 863,1077 153.4,1041.8 	"/>
+	<polygon class="st5" points="403,293.3 1054.7,221.8 1477.5,258.9 1545.8,630 1433.1,936.9 874.5,930.8 419.8,860.4 	"/>
+	<polygon class="st6" points="998.4,379.2 661,486.5 686.3,679 886,784.7 1153.2,793.8 1322.3,650.5 1219.7,434.9 	"/>
+</g>
+<g transform="translate(-142)" class="st7">
+	<circle class="st8" cx="378.9" cy="402.6" r="4.8"/>
+	<circle class="st8" cx="315.1" cy="276.3" r="3.4"/>
+	<circle class="st9" cx="489.6" cy="467.1" r="6.8"/>
+	<circle class="st8" cx="145.3" cy="500.4" r="4.8"/>
+	<circle class="st9" cx="305.6" cy="307.5" r="6.1"/>
+	<circle class="st8" cx="2057.9" cy="205" r="4.1"/>
+	<circle class="st10" cx="827.7" cy="970.9" r="6.8"/>
+	<circle class="st10" cx="810.7" cy="929.5" r="4.8"/>
+	<circle class="st10" cx="829" cy="926.1" r="2.7"/>
+	<circle class="st8" cx="528.9" cy="463" r="4.1"/>
+	<circle class="st8" cx="617.9" cy="606.3" r="4.8"/>
+	<circle class="st9" cx="1897.7" cy="335.4" r="4.1"/>
+	<circle class="st9" cx="1961.8" cy="249.9" r="6.8"/>
+	<circle class="st11" cx="1889.3" cy="270.7" r="3.4"/>
+	<circle class="st11" cx="133.8" cy="200.9" r="6.8"/>
+	<circle class="st11" cx="1998.2" cy="327.2" r="8.1"/>
+	<circle class="st11" cx="1705.9" cy="609.8" r="4.1"/>
+	<circle class="st11" cx="1812.9" cy="447.1" r="4.8"/>
+	<circle class="st11" cx="1928.2" cy="423" r="6.1"/>
+	<circle class="st11" cx="1592.2" cy="423.6" r="4.1"/>
+	<circle class="st11" cx="1039.4" cy="503.8" r="4.1"/>
+	<path class="st11" d="M2049.8,97.7c2.3,0,4.1,1.8,4.1,4.1s-1.8,4.1-4.1,4.1s-4.1-1.8-4.1-4.1S2047.5,97.7,2049.8,97.7z"/>
+	<circle class="st11" cx="1761.7" cy="738.5" r="4.8"/>
+</g>
+</svg>
