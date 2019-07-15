@@ -8,8 +8,18 @@
         <title>Nouveta | Home</title>
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
 
+        <!-- Slick JS Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="styles/index.css">
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!-- Slick JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
     </head>
 
     <body>
@@ -137,8 +147,108 @@
                 <hr>
             </div>
         </div>
-        <!-- JQuery CDN -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <div id="partners">
+            <h1 class="header">Our Partners</h1>
+            <hr class="orange">
+            <div class="content">
+                <div class="testimonals-carousel">
+                    <div class="testimony">
+                        <img src="images/john-doe.jpeg" alt="User">
+                        <p>
+                            <i class="icon ion-ios-quote"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque blanditiis neque laudantium dolorem perspiciatis illum consectetur atque deleniti ut mollitia!
+                        </p>
+                        <h5>- John Doe -</h5>
+                    </div>
+                    <div class="testimony">
+                        <img src="images/jane-doe.jpeg" alt="User">
+                        <p>
+                            <i class="icon ion-ios-quote"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut asperiores saepe sapiente dolor similique non nam temporibus veniam magnam tenetur!
+                        </p>
+                        <h5>- Ruth Doe -</h5>
+                    </div>
+                    <div class="testimony">
+                        <img src="images/john-doe.jpeg" alt="User">
+                        <p>
+                            <i class="icon ion-ios-quote"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ex eaque vero aut odit, aliquam.
+                        </p>
+                        <h5>- Peter Doe -</h5>
+                    </div>
+                    <div class="testimony">
+                        <img src="images/jane-doe.jpeg" alt="User">
+                        <p>
+                            <i class="icon ion-ios-quote"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur odio esse soluta reprehenderit voluptas itaque unde, sapiente praesentium incidunt delectus!
+                        </p>
+                        <h5>- Jane Doe -</h5>
+                    </div>
+                </div>
+                <div class="partners-carousel">
+                    <div><img src="images/ibm.png"></div>
+                    <div><img src="images/compito-plus.png"></div>
+                    <div><img src="images/sts.png"></div>
+                    <div><img src="images/infobip.png"></div>
+                    <div><img src="images/nbk.png"></div>
+                    <div><img src="images/openway.png"></div>
+                    <div><img src="images/ducont.png"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="contacts">
+                <div class="contact-info">
+                    <img src="images/logo.png" alt="Nouveta">
+                    <ul>
+                        <li>Tulip House, 6th Floor, Wing B. Mombasa Rd, next to Sameer Business Park</li>
+                        <li>+254-759-067-452 / +254-770-387-419</li>
+                        <li><a href="mailto:info@nouveta.tech">info@nouveta.tech <span class="slider"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footerSocials">
+                    <a href="#"><i class="icon ion-logo-facebook"></i></a>
+                    <a href="#"><i class="icon ion-logo-instagram"></i></a>
+                    <a href="#"><i class="icon ion-logo-linkedin"></i></a>
+                </div>
+            </div>
+            <div id="footerLinks">
+                <ul>
+                    <li><a href="#">Home<span class="slider"></span></a></li>
+                    <li><a href="#about">About Us<span class="slider"></span></a></li>
+                    <li><a href="#services">Our Services<span class="slider"></span></a></li>
+                    <li><a href="#solutions">Our Solutions<span class="slider"></span></a></li>
+                    <li><a href="#partners">Partners<span class="slider"></span></a></li>
+                    <li><a href="#contacts">Contact Us<span class="slider"></span></a></li>
+                    <li><a href="javascript:void(0)">Careers<span class="slider"></span></a></li>
+                </ul>
+            </div>
+            <div id="quickContact">
+                <form class="" action="index.html" method="post">
+                    <h1 class="header">Get In Touch</h1>
+                    <div class="form-group">
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" name="contact-name" placeholder="What can we call you?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" name="contact-email" placeholder="Where can we reply to your message?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" name="contact-subject" placeholder="What's your message about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Your Message</label>
+                        <textarea name="contact-message" placeholder="Tell us something." required></textarea>
+                    </div>
+                </form>
+            </div>
+            <p id="footnote">
+                &copy; Nouveta
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+                All Rights Reserved
+            </p>
+        </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
         <script type="text/javascript">
             var scene = document.getElementById('scene');

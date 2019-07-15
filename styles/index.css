@@ -2,6 +2,7 @@
 
 :root {
   --primary: #fe8030;
+  --secondary: #5B5C5C;
 }
 
 * {
@@ -36,6 +37,27 @@ hr.orange {
 
 h1 span {
   font-weight: 300;
+}
+
+input, textarea {
+  background: none;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 0;
+  border-bottom: 1px solid var(--secondary);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--secondary);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .btn {
@@ -439,7 +461,7 @@ a.active {
 }
 
 #value-preposition .content {
-  padding: 2em;
+  padding: 2em 0 0;
 }
 
 #value-preposition .heading {
@@ -463,4 +485,124 @@ a.active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+#partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*padding: 6em 10%;*/
+}
+
+#partners .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 1em;
+  grid-column-gap: 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.testimony img {
+  height: auto;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.slick-slide .testimony {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: 0.5s ease-in-out;
+}
+
+.slick-center .testimony {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
+.partners-carousel img {
+  height: 120px;
+  width: auto;
+  padding: 1em;
+}
+
+footer {
+  background: var(--primary);
+  color: #ffce86;
+  padding: 2em 10%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 35% 20% 40%;
+  grid-column-gap: 3em;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 0.5em 0;
+}
+
+footer a:hover {
+  color: white;
+}
+
+#footerSocials {
+  font-size: 2em;
+  display: flex;
+}
+
+#footerSocials a {
+  margin: 0.5em;
+  transition: 0.5s;
+}
+
+#footerSocials a:hover {
+  color: white;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.contact-info img {
+  width: 60%;
+  background: white;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+#quickContact {
+  background: white;
+  padding: 2em;
+  border-radius: 20px;
+  color: var(--primary);
+}
+
+p#footnote {
+  position: absolute;
+  left: 0;
+  bottom: -2em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em;
+  background: var(--secondary);
+  color: #dadbdb;
 }
