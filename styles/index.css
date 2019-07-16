@@ -3,6 +3,7 @@
 :root {
   --primary: #fe8030;
   --secondary: #5B5C5C;
+  --bg: #fef1e4;
 }
 
 * {
@@ -411,6 +412,11 @@ img.planet-a {
   text-align: center;
 }
 
+#about-us img {
+  width: 220px;
+  height: auto;
+}
+
 #architecture .content {
   background: var(--primary);
   color: white;
@@ -485,6 +491,10 @@ a.active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+#products {
+  background: linear-gradient(90deg, #FEF1E4 70%, #fe8030 0);
 }
 
 #partners {

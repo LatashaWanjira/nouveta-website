@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        </style>
+    </head>
+
+    <body>
+        <div class="inp">
+            <input type="number" name="number" id="number" placeholder="Enter your number">
+        </div>
+
+        <div id="btn">
+            <input type="button" onclick="isPrime()" value="Submit">
+        </div>
+
+
+
+        <script type="text/javascript">
+            function isPrime() {
+                var number = document.getElementById("number").value
+                // console.log(number)
+
+                if (number <= 1) {
+                    console.log(false);
+                }
+                if (number <= 3) {
+                    console.log(true);
+                }
+                if (number % 2 == 0 || number % 3 == 0) {
+                    console.log(false);
+                }
+                for (var i = 5; i * i <= number; i = i + 6) {
+                    if (number % i == 0 || number % (i + 2) == 0) {
+                        console.log(false);
+                    }
+                }
+                console.log(true);
+            }
+        </script>
+    </body>
+
+</html>
