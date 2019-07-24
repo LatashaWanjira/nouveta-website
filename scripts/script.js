@@ -4,6 +4,13 @@ $(document).ready(function() {
     var $nav = $(".navbar");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
+  //Products Carousel
+  $('.product-container').slick({
+    arrows: true,
+    prevArrow: $(".pp2"),
+    nextArrow: $(".nn2"),
+  })
+
   // Centered Carousel
   $('.testimonals-carousel').slick({
     centerMode: true,
@@ -14,14 +21,6 @@ $(document).ready(function() {
     arrows: false,
     dots: true,
     responsive: [{
-      //       breakpoint: 768,
-      //       settings: {
-      //         centerMode: true,
-      //         centerPadding: '40px',
-      //         slidesToShow: 3
-      //       }
-      //     },
-      //     {
       breakpoint: 480,
       settings: {
         centerMode: true,
